@@ -17,7 +17,7 @@ Keep in mind that these files will sound off -- that is because of their .midi a
 * These are score files that are supported by MuseScore, a free open-source scorewriter supported by most operating systems. This makes it easy for musicians to score out and make edits to files if needed. It also makes it easy to export to other file types, such as .xml, .midi, .mp3, .pdf, and so on. These files can easy be imported to other notation software like Sibelius or Finale.
 
 ## Categories
-The website is split up into categories: game, series, length, genre, and type.
+The website is split up into the following categories:
 > Game
 * Self-explanatory. If you are looking for a song from a specific game, sort by this category. If you do not find a song you are looking for, you can always ask for one under the "request" tab (TBA).
 
@@ -34,4 +34,4 @@ The website is split up into categories: game, series, length, genre, and type.
 * Some songs may come with variants, such as indoors, underwater, or boss themes. This category will help sort those, if they are provided. 
 
 ## MIDI Assignment
-This is complicated. TBA.
+TBA.
