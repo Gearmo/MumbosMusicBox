@@ -2,10 +2,9 @@
 _The MIDI database for Banjo-Kazooie modding._
 
 ## Purpose
-
 Mumbo's Music Box holds music files that can be implemented into Banjo-Kazooie modding programs, such as [Banjo's Backpack](https://github.com/banjobackpack/Banjo-s-Backpack). The purpose is to have a quick-access website for modders to download music that they need for their stages. Mumbo's Music Box focuses on music from other games series, such as Pokemon, Mario, Zelda, Final Fantasy, Touhou, etc.
-## Supported Files
 
+## Supported Files
 > MIDI
 * Perhaps the most important file on this website, .midi files can be directly implemented into Banjo's Backpack for custom music. Our databse fo. They are readily available to import into Banjo's Backpack, and have been tested before finalizing.
 Keep in mind that these files will sound off -- that is because of their .midi assignment, which will be corrected once they are imported into the game. More information can be found under "MIDI Assignment".
@@ -25,13 +24,16 @@ The website is split up into the following categories:
 * Similar to the above, this helps with finding songs from specific series, such as Mario, Zelda, Pokemon, etc.
 
 > Length
-* This sorting method helps with finding music with varying lengths. Although there are no known limiations regarding track length, some modders prefer shorter loops for certain parts of their stage. Others prefer 6-minute loops (looking at you, One Winged Angel).
+* This sorting method helps with finding music with varying lengths. Although there are no known limiations regarding track length, some modders prefer shorter loops for certain parts of their stages. Others prefer 6-minute loops for some reason (ahem, One Winged Angel).
 
 > Genre
 * Use this sorting method to help fit the aesthetic or vibe of your stage (specific genres TBA).
 
 > Type
 * Some songs may come with variants, such as indoors, underwater, or boss themes. This category will help sort those, if they are provided. 
+
+## Requests
+TBA.
 
 ## MIDI Assignment
 TBA.
