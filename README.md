@@ -28,7 +28,7 @@ The website is split up into the following categories:
 * This sorting method helps with finding music with varying lengths. Although there are no known limiations regarding track length, some modders prefer shorter loops for certain parts of their stages. Others prefer 6-minute loops for some reason (ahem, One Winged Angel).
 
 > Genre
-* Use this sorting method to help fit the aesthetic or vibe of your stage (specific genres TBA).
+* Use this sorting method to help fit the aesthetic or vibe of your stage. Specific genres TBA.
 
 > Type
 * Some songs may come with variants, such as indoors, underwater, or boss themes. This category will help sort those, if they are provided. 
