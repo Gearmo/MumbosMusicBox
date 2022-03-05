@@ -1,4 +1,4 @@
-![Mumbo's Musix Box](https://github.com/Gearmo/MumbosMusicBox/images/mmb_banner.png)
+![Mumbo's Musix Box](images/mmb_banner.png)
 
 # [mumbosmusicbox.com](http://mumbosmusicbox.com)
 _The MIDI database for Banjo-Kazooie modding._
