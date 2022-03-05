@@ -1,43 +1,58 @@
-/* BK BANNER */
-.banner {
-    background-color: #858dd1;
-    border: 2px solid rgb(48, 48, 48);
-    height: 80px;
-}
-.bannertext {
-    text-align: center;
-    font-weight: bolder;
-    font-family: 'Lucida Sans Unicode';
-    font-size: 20px;
+body {
+    background-image: linear-gradient(#fff, #6d7411);
+    height: 700px;
 }
 
-/* MAIN */
-.main {
-    background-size:100%;
-    height:545px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-    font-size: 88px;
+video {
     z-index: 1;
-    font-family: 'Lucida Sans Unicode';
+    position: absolute;
+    opacity: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top:0px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 100%;
 }
-
-/* FOOTER */
-.footer {
-    border: 1px solid #ccc;
-    border-width: 1px 0;
-    color: rgb(197, 197, 197);
-    background-color: rgb(43, 43, 43);
-    padding: 25px;
-    padding-bottom: 10px;
-    text-align: center;
+.banner {
     display: flex;
-    justify-content: center;
     align-items: center;
-    bottom: auto;
+    justify-content: center;
+    width: 100%;
+    height: 135px;
+    padding-bottom: 10px;
 }
-.copyright {
+img {
+    z-index: 2;
+    height: 130px;
+}
+.background {
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.footer {
+    z-index: 2;
+    color: azure;
+    background-color: #292929;
+    height: 8%;
+    width: 100%;
+    display: flex;
+    align-items: center;
     text-align: center;
+    justify-content: center;
+    bottom: 0;
+    position: fixed;
+    font-size: 12px;
+    font-family: 'Lucida Sans'
+}
+a:hover {
+    text-decoration: none;
+    color: #aabeff
 }
