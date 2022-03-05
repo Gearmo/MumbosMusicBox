@@ -1,3 +1,5 @@
+![Mumbo's Musix Box](images/mmb_banner.png)
+
 # [mumbosmusicbox.com](mumbosmusicbox.com)
 _The MIDI database for Banjo-Kazooie modding._
 
