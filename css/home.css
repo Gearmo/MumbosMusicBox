@@ -1,15 +1,19 @@
-video {
-    z-index: 1;
-    position: absolute;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    top:0px;
-    left:0px;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+/* NAVBAR */
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    text-indent: -10px;
 }
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: middle;
+}
+.navbar .navbar-collapse {
+    text-align: left;
+}
+
+/* BANNER */
 .banner {
     display: flex;
     align-items: center;
@@ -22,6 +26,17 @@ img {
     z-index: 2;
     height: 130px;
 }
+
+/* MAIN BODY */
+.mainbody {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+/* FOOTER */
 .footer {
     z-index: 2;
     color: azure;
@@ -44,11 +59,32 @@ a:hover {
 
 /* MOBILE VIEW */
 @media screen and (max-device-width: 425px) {
+    .navbar {
+        margin-bottom: 0;
+        border-radius: 0;
+        text-indent: -10px;
+        font-size: 28px;
+        padding: 15px 15px;
+    }
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: middle;
+        font-size: 28px;
+        padding: 15px 15px;
+
+    }
+    .navbar .navbar-collapse {
+        text-align: left;
+        font-size: 28px;
+        padding: 15px 15px;
+
+    }
     .footer {
         z-index: 2;
         color: azure;
         background-color: #292929;
-        height: 8%;
+        height: 5%;
         width: 100%;
         display: flex;
         align-items: center;
@@ -58,14 +94,5 @@ a:hover {
         position: fixed;
         font-size: 28px;
         font-family: 'Lucida Sans'
-    }
-    video {
-        z-index: 1;
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        transform: scale(1, 1);
-        transform-origin: center;
     }
   }
