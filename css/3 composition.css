@@ -1,15 +1,3 @@
-/* BACKGROUND */
-#background {
-    z-index: 0;
-    position: absolute;
-    opacity: 75%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-}
-
 /* NAVBAR */
 .navbar-inverse {
     font-family:Tahoma;
@@ -37,28 +25,60 @@
     justify-content: center;
     width: 100%;
     height: 135px;
-    padding-bottom: 10px;
+    padding-top: 5px;
 }
 img {
-    z-index: 2;
     height: 130px;
 }
 
 /* MAIN BODY */
 .mainbody {
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(109,116,17,1) 100%);
+    position: absolute;
     height: 100%;
     width: 100%;
-    position: relative;
-    top: 0;
-    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.pageid {
+    display: flex;
+    font-family: Tahoma;
+    font-size: 34px;
+    font-weight: bold;
+}
+.container {
+    min-width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+.content {
+    background-color: rgb(233, 233, 233);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    width: 100%;
+    border-radius: 5px;
+    padding: 20px 45px;
+}
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Tahoma;
+    padding-bottom: 8px;
+}
+p {
+    font-family: Calibri;
+    font-size: 18px;
 }
 
 /* FOOTER */
 .footer {
-    z-index: 2;
     color: azure;
     background-color: #303030;
-    height: 8%;
+    height: 6%;
     width: 100%;
     display: flex;
     align-items: center;
@@ -76,17 +96,31 @@ a:hover {
 
 /* MOBILE VIEW */
 @media screen and (max-device-width: 425px) {
+    /* MOBILE NAV */
     .navbar-inverse {
         position: relative;
         background-color: #303030;
         font-size: 32px;
         padding: 25px 18px;
-        font-family:Tahoma;
+        font-family: Tahoma;
+        padding-left: 28px;
     }
     .navbar {
+        position: absolute;
         margin-bottom: 0;
         border-radius: 0;
         text-indent: -10px;
+        text-align: center;
+    }
+    .navbar ul {
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+    }
+    #nav ul li {
+        margin: 0;
+        padding: 0;
+        float:left;
     }
     .navbar .navbar-nav {
         display: inline-block;
@@ -96,8 +130,50 @@ a:hover {
     .navbar .navbar-collapse {
         text-align: left;
     }
+    /* MOBILE BODY */
+    .mainbody {
+        background: rgb(255,255,255);
+        background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(109,116,17,1) 100%);
+        position: absolute;
+        height: 130%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    .pageid {
+        display: flex;
+        font-family: Tahoma;
+        font-size: 56px;
+        font-weight: bold;
+    }
+    .container {
+        min-width: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+    .content {
+        background-color: rgb(233, 233, 233);
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+        width: 100%;
+        border-radius: 5px;
+        padding: 25px 45px;
+    }
+    h1 {
+        font-size: 36px;
+        font-weight: bold;
+        font-family: Tahoma;
+        padding-bottom: 15px;
+    }
+    p {
+        font-family: Calibri;
+        font-size: 38px;
+    }
+    /* MOBILE FOOTER */
     .footer {
-        z-index: 2;
         color: azure;
         background-color: #292929;
         height: 4%;
@@ -109,6 +185,6 @@ a:hover {
         bottom: 0;
         position: fixed;
         font-size: 32px;
-        font-family:Tahoma;
+        font-family: Tahoma;
     }
   }
