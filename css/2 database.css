@@ -62,9 +62,9 @@ img {
 .content {
     background-color: rgb(233, 233, 233);
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-    width: 100%;
+    width: 110%;
     border-radius: 5px;
-    padding: 10px 20px;
+    padding: 20px 20px;
 }
 h1 {
     font-size: 24px;
@@ -87,38 +87,48 @@ h1 {
     margin-left: 10px;
 }
 .series {
-    width: 15%;
+    width: 14%; /* 14% */
+    border: 1px solid #ff0000;
 }
 .game {
-    width: 18.5%;
+    width: 14%; /* 28% */
+    border: 1px solid #ff0000;
 }
 .title {
-    width: 18.5%;
+    width: 26%; /* 54% */
+    border: 1px solid #ff0000;
 }
 .artist {
-    width: 15%;
+    width: 10%; /* 64% */
+    border: 1px solid #ff0000;
 }
 .type {
-    width: 10%;
+    width: 14%; /* 78% */
+    border: 1px solid #ff0000;
 }
 .length {
-    width: 5%;
+    width: 4%; /* 82% */
+    border: 1px solid #ff0000;
 }
-.download {
-    width: 12%;
-}
-.fileicon {
-    width: 4%;
+.filebox { 
+    width: 18%; /* 100% */
+    border: 1px solid #ff0000;
     height: 48px;
     display: flex;
     justify-content: center;
-    margin-left: 1vh;
-    margin-right: 1vh;
+    margin: 0% 1%;
+}
+.fileicon {
+    border: 1px solid #ff0000;
+    width: 33.3333%;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    margin: 0% 6%;
 }
 #iconfit {
     min-width: 100%;
     max-height: 100%;
-    margin: 0;
     flex-shrink: 0;
 }
 #hidden {
