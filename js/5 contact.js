@@ -43,3 +43,15 @@
 
 })(jQuery);
 
+/*
+$(textarea).focus(function(){
+    $(this).hide();
+    $(bigfield).focus();
+});
+
+$(textarea).focusout(function(){
+    if ($(this).val() === ""){
+        $(bigfield).show();
+    }
+});
+*/

@@ -4,6 +4,9 @@
     height: 100vh;
     width: 100%;
 }
+img[src="images/mmb_banner.png"] {
+    height: 130px;
+}
 
 /* NAVBAR */
 .navbar-inverse {
@@ -32,15 +35,10 @@
     height: 135px;
     padding-top: 5px;
 }
-img {
-    height: 130px;
-}
 
 /* MAIN BODY */
 .mainbody {
-    object-fit:fill;
     position: absolute;
-    flex-direction: column;
     text-align: center;
     height: 100%;
     width: 100%;
@@ -61,9 +59,57 @@ img {
 .content {
     background-color: rgb(233, 233, 233);
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-    width: 100%;
+    width: 40%;
     border-radius: 5px;
     padding: 20px 45px;
+}
+
+/* FORM */
+.formbase {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 5px;
+    gap: 12px;
+    padding-bottom: 20px;
+}
+.smallfield {
+    border: 2px solid #5e5e5e;
+    border-radius: 6px;
+    height: 3.3vh;
+    width: 100%;
+    box-shadow: 0 2px 5px rgb(0 0 0 / 0.2);
+    padding-left: 8px;
+}
+input:focus::placeholder {
+    color: transparent;
+}
+.bigfield {
+    border: 2px solid #5e5e5e;
+    border-radius: 6px;
+    height: 12vh;
+    width: 100%;
+    box-shadow: 0 2px 5px rgb(0 0 0 / 0.2);
+    padding-left: 8px;
+}
+.bottomfields {
+    height: 4vh;
+    width: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+#button {
+    padding-left: 36px;
+    padding-right: 36px;
+    width: 100%;
+    background-color: #ffffff;
+}
+#button:hover {
+    background-color: #dfdfdf;
+}
+#button:active {
+    background-color: #a5a5a5;
 }
 h1 {
     font-size: 24px;
@@ -72,9 +118,10 @@ h1 {
     padding-bottom: 8px;
 }
 p {
+    padding-top: 0px;
     text-align: left;
     font-family: Calibri;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 /* FOOTER */
