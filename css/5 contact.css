@@ -40,7 +40,6 @@ img[src="images/mmb_banner.png"] {
 .mainbody {
     position: absolute;
     text-align: center;
-    height: 100%;
     width: 100%;
 }
 .pageid {
@@ -49,7 +48,7 @@ img[src="images/mmb_banner.png"] {
     font-weight: bold;
 }
 .container {
-    min-width: 80%;
+    min-width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -59,7 +58,7 @@ img[src="images/mmb_banner.png"] {
 .content {
     background-color: rgb(233, 233, 233);
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-    width: 40%;
+    width: 45%;
     border-radius: 5px;
     padding: 20px 45px;
 }
@@ -75,7 +74,7 @@ img[src="images/mmb_banner.png"] {
 .smallfield {
     border: 2px solid #5e5e5e;
     border-radius: 6px;
-    height: 3.3vh;
+    height: 3.4vh;
     width: 100%;
     box-shadow: 0 2px 5px rgb(0 0 0 / 0.2);
     padding-left: 8px;
