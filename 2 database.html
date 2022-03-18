@@ -50,51 +50,107 @@
 
             <!-- BANNER -->
             <div class="banner">
-            <img src="images/mmb_banner.png" alt="MMB Banner">
+            <!-- <img src="images/mmb_banner.png" alt="MMB Banner"> -->
 
                 <div class="pageid">Database</div>
             
                 <div class="container">
 
-                <div class="content">
-                    
-                    <div class="line">
-                        <div class="series" style="text-align:center"><b>Series</b></div>
-                            <div class="spacer" id="hidden">|</div>
-                        <div class="game" style="text-align:center"><b>Game</b></div>
-                            <div class="spacer" id="hidden">|</div>
-                        <div class="title" style="text-align:center"><b>Title</b></div>
-                            <div class="spacer" id="hidden">|</div>
-                        <div class="artist" style="text-align:center"><b>Artist</b></div>
-                            <div class="spacer" id="hidden">|</div>
-                        <div class="type" style="text-align:center"><b>Type</b></div>
-                            <div class="spacer" id="hidden">|</div>
-                        <div class="length" style="text-align:center"><b>Length</b></div>
-                            <div class="spacer" id="hidden">|</div>
-                        <div class="filebox" style="text-align:center"><b>Downloads</b></div>
-                    </div>
-
-                    <div class="line">
-                        <div class="series">Banjo-Kazooie</div>
-                            <div class="spacer">|</div>
-                        <div class="game">Banjo-Tooie</div>
-                            <div class="spacer">|</div>
-                        <div class="title">Mr. Patch</div>
-                            <div class="spacer">|</div>
-                        <div class="artist">Gearmo</div>
-                            <div class="spacer">|</div>
-                        <div class="type">Boss</div>
-                            <div class="spacer">|</div>
-                        <div class="length">2:34</div>
-                            <div class="spacer">|</div>
-                        <div class="filebox">
+                <table class="content">                    
+                    <tr class="line" id="linesort">
+                        <th class="series" style="text-align:center" id="sorting"><b>Series▾</b></th>
+                            <th class="spacer" id="hidden">|</th>
+                        <th class="game" style="text-align:center" id="sorting"><b>Game▾</b></th>
+                            <th class="spacer" id="hidden">|</th>
+                        <th class="title" style="text-align:center" id="sorting"><b>Title▾</b></th>
+                            <th class="spacer" id="hidden">|</th>
+                        <th class="type" style="text-align:center" id="sorting"><b>Type▾</b></th>
+                            <th class="spacer" id="hidden">|</th>
+                        <th class="artist" style="text-align:center" id="sorting"><b>Artist▾</b></th>                               
+                            <th class="spacer" id="hidden">|</th>
+                        <th class="length" style="text-align:center" id="sorting"><b>Length▾</b></th>
+                            <th class="spacer" id="hidden">|</th>
+                        <th class="filebox" style="text-align:center" id="nosorting"><b>Downloads</b></th>
+                    </tr>
+                </table>
+                <table class="content">
+                    <tr class="line">
+                        <th class="series">Banjo-Kazooie</th>
+                            <th class="spacer">|</th>
+                        <th class="game">Banjo-Tooie</th>
+                            <th class="spacer">|</th>
+                        <th class="title">Mr. Patch</th>
+                            <th class="spacer">|</th>
+                        <th class="type">Boss</th>
+                            <th class="spacer">|</th>
+                        <th class="artist">Gearmo</th>
+                            <th class="spacer">|</th>
+                        <th class="length">2:34</th>
+                            <th class="spacer">|</th>
+                        <th class="filebox">
                             <div class="fileicon"><img src="images/mp3 icon.png" alt="mp3 icon" id="iconfit"></div>
                             <div class="fileicon"><img src="images/midi icon.png" alt="midi icon" id="iconfit"></div>
                             <div class="fileicon"><img src="images/mscz icon.png" alt="mscz icon" id="iconfit"></div>
-                        </div>
-                    </div>
-
-                </div>
+                        </th>
+                    </tr>
+                    <tr class="line">
+                        <th class="series">Banjo-Kazooie</th>
+                            <th class="spacer">|</th>
+                        <th class="game">Banjo-Tooie</th>
+                            <th class="spacer">|</th>
+                        <th class="title">HAG1</th>
+                            <th class="spacer">|</th>
+                        <th class="type">Boss</th>
+                            <th class="spacer">|</th>
+                        <th class="artist">Gearmo</th>
+                            <th class="spacer">|</th>
+                        <th class="length">4:30</th>
+                            <th class="spacer">|</th>
+                        <th class="filebox">
+                            <div class="fileicon"><img src="images/mp3 icon.png" alt="mp3 icon" id="iconfit"></div>
+                            <div class="fileicon"><img src="images/midi icon.png" alt="midi icon" id="iconfit"></div>
+                            <div class="fileicon"><img src="images/mscz icon.png" alt="mscz icon" id="iconfit"></div>
+                        </th>
+                    </tr>
+                    <tr class="line">
+                        <th class="series">Banjo-Kazooie</th>
+                            <th class="spacer">|</th>
+                        <th class="game">Banjo-Tooie</th>
+                            <th class="spacer">|</th>
+                        <th class="title">Chris P. Bacon</th>
+                            <th class="spacer">|</th>
+                        <th class="type">Minigame</th>
+                            <th class="spacer">|</th>
+                        <th class="artist">Gearmo</th>
+                            <th class="spacer">|</th>
+                        <th class="length">1:59</th>
+                            <th class="spacer">|</th>
+                        <th class="filebox">
+                            <div class="fileicon"><img src="images/mp3 icon.png" alt="mp3 icon" id="iconfit"></div>
+                            <div class="fileicon"><img src="images/midi icon.png" alt="midi icon" id="iconfit"></div>
+                            <div class="fileicon"><img src="images/mscz icon.png" alt="mscz icon" id="iconfit"></div>
+                        </th>
+                    </tr>
+                    <tr class="line">
+                        <th class="series">Banjo-Kazooie</th>
+                            <th class="spacer">|</th>
+                        <th class="game">Banjo-Tooie</th>
+                            <th class="spacer">|</th>
+                        <th class="title">Fun-N-Games</th>
+                            <th class="spacer">|</th>
+                        <th class="type">Minigame</th>
+                            <th class="spacer">|</th>
+                        <th class="artist">Gearmo</th>
+                            <th class="spacer">|</th>
+                        <th class="length">4:30</th>
+                            <th class="spacer">|</th>
+                        <th class="filebox">
+                            <div class="fileicon"><img src="images/mp3 icon.png" alt="mp3 icon" id="iconfit"></div>
+                            <div class="fileicon"><img src="images/midi icon.png" alt="midi icon" id="iconfit"></div>
+                            <div class="fileicon"><img src="images/mscz icon.png" alt="mscz icon" id="iconfit"></div>
+                        </th>
+                    </tr>
+                </table>
             </div>    
         </div>
 
