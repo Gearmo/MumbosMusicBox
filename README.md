@@ -1,7 +1,7 @@
 ![Mumbo's Musix Box](images/mmb_banner.png)
 
 # [mumbosmusicbox.com](http://mumbosmusicbox.com)
-_The MIDI database for Banjo-Kazooie modding._
+_The music database for Banjo-Kazooie modding._
 
 ## Purpose
 Mumbo's Music Box holds music files that can be implemented into Banjo-Kazooie modding programs, such as [Banjo's Backpack](https://github.com/banjobackpack/Banjo-s-Backpack). The purpose is to have a quick-access website for modders to download music that they need for their stages. Mumbo's Music Box focuses on music from other games series, such as Pokemon, Mario, Zelda, Final Fantasy, Touhou, etc.
