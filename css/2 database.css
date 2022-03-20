@@ -1,8 +1,8 @@
 /* BODY */
 #background {
     position: fixed;
-    height: 100vh;
-    width: 100%;
+    height: 200vh;
+    width: 100%
 }
 
 /* NAVBAR */
@@ -50,13 +50,13 @@ img {
     font-family: Tahoma;
     font-size: 34px;
     font-weight: bold;
+    padding-bottom: 25px;
 }
 .container {
     min-width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 5px;
 }
 .content {
     background-color: #f1f1f1;
@@ -80,29 +80,35 @@ th {
 #linesort {
     background-color: #303030;
 }
-.spacer {
-    color:#8a8a8a;
-    width: 1%;
-    margin-right: 13px;
-    margin-left: 13px;
-}
 .series {
     width: 14%; /* 14% */
+    font-weight: normal;
+    border-right: 1px solid #8a8a8a;
 }
 .game {
     width: 14%; /* 28% */
+    font-weight: normal;
+    border-right: 1px solid #8a8a8a;
 }
 .title {
-    width: 26%; /* 54% */
+    width: 24%; /* 52% */
+    font-weight: normal;
+    border-right: 1px solid #8a8a8a;
 }
 .artist {
-    width: 10%; /* 64% */
+    width: 12%; /* 64% */
+    font-weight: normal;
+    border-right: 1px solid #8a8a8a;
 }
 .type {
-    width: 14%; /* 78% */
+    width: 12%; /* 76% */
+    font-weight: normal;
+    border-right: 1px solid #8a8a8a;
 }
 .length {
-    width: 4%; /* 82% */
+    width: 7%; /* 83% */
+    font-weight: normal;
+    border-right: 1px solid #8a8a8a;
 }
 #nosorting {
     color:#f1f1f1;
@@ -117,12 +123,12 @@ th {
     color: #818181
 }
 .filebox { 
-    width: 18%; /* 100% */
+    width: 15%; /* 98% */
     min-height: 48px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0% 1%;
+    margin: 0% 2%; /* 100 */
 }
 .fileicon {
     width: 100%;
