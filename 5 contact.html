@@ -57,7 +57,7 @@
                 <div class="container">
 
                     <div class="content"><h1>Submission Form</h1>
-                        <form class="formbase"><p style="text-align: center">Ask us anything! This is the place to submit your files, ask questions, or raise any concerns you may have. Your information will be kept confidential. <br><br>Please be sure to include the four-digit number after your Discord name. (Example: <i>Mumbo#1234</i>)</p>
+                        <form class="formbase" method="post" action="contactform.php"><p style="text-align: center">Ask us anything! This is the place to submit your files, ask questions, or raise any concerns you may have. Your information will be kept confidential. <br><br>Please be sure to include the four-digit number after your Discord name. (Example: <i>Mumbo#1234</i>)</p>
                             <div><input type="text" class="smallfield" placeholder="Name"></div>
                             <div><input type="text" class="smallfield" placeholder="Discord"></div>
                             <div><textarea 
@@ -69,8 +69,8 @@
                                 onblur="this.placeholder = 'Comment'"
                                 ></textarea></div>
                             <div class="bottomfields">
-                                <div><input type="button" class="smallfield" value="Add Files" id="button"></div>
-                                <div><input type="submit" class="smallfield" value="Submit" id="button"></div>
+                                <div><input class="bottomleft" type="button" value="Add Files"></div>
+                                <div><input class="bottomright" type="submit" value="Submit"></div>
                             </div>
                         </form>
                     </div>
