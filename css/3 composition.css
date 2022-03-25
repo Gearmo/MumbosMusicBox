@@ -99,7 +99,7 @@ img {
     height: 100%;
     font-family: Calibri;
     font-size: 16px;
-    word-break: break-all;
+    word-break: break-word;
 }
 #resize {
     width: 100%;
@@ -111,6 +111,12 @@ h1 {
     font-family: Tahoma;
     padding-bottom: 15px;
 }
+h2 {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Tahoma;
+    text-align: left;
+}
 p {
     text-align: left;
     font-family: Calibri;
@@ -118,18 +124,12 @@ p {
 }
 a:hover {
     color:#ffffff;
-    opacity: 70%;
+    opacity: 60%;
 }
 a:active {
     color:#ffffff;
-    opacity: 50%;
+    opacity: 40%;
 }
-
-img[src="images/BK Icon.png"]:hover {
-    color: #ffffff;
-    opacity: 70%;
-}
-
 /* FOOTER */
 .footer {
     color: azure;
