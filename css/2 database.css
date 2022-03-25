@@ -1,7 +1,7 @@
 /* BODY */
 #background {
     position: fixed;
-    height: 200vh; 
+    height: 100vh; 
     width: 100%
 }
 
@@ -43,7 +43,7 @@ img {
     position: absolute;
     flex-direction: column;
     text-align: center;
-    height: 180vh;
+    height: 160vh; /* Will increase as database grows */
     width: 100%;
 }
 .pageid {
@@ -140,6 +140,7 @@ th {
 }
 #nosorting {
     color:#f1f1f1;
+    pointer-events: none;
 }
 #sorting {
     color:#f1f1f1;

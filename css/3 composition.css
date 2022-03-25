@@ -1,7 +1,7 @@
 /* BODY */
 #background {
     position: fixed;
-    height: 100vh;
+    height: 140vh;
     width: 100%;
 }
 
@@ -56,6 +56,8 @@ img {
     flex-direction: column;
     align-items: center;
     gap: 25px;
+}
+#botpadding {
     padding-bottom: 6%;
 }
 .content {
@@ -65,16 +67,67 @@ img {
     border-radius: 5px;
     padding: 20px 45px;
 }
+#fix {
+    width: 200%;
+}
+.areaofthings {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 50px;
+    gap: 20px; /* vert gap */
+    width: 100%;
+}
+.row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px; /* icon spacing */
+}
+.row2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height:fit-content;
+    gap: 40px;
+    overflow: hidden;
+}
+.things {
+    width: 100%;
+    height: 100%;
+    font-family: Calibri;
+    font-size: 16px;
+    word-break: break-all;
+}
+#resize {
+    width: 100%;
+    height: 100%;
+}
 h1 {
     font-size: 24px;
     font-weight: bold;
     font-family: Tahoma;
-    padding-bottom: 8px;
+    padding-bottom: 15px;
 }
 p {
     text-align: left;
     font-family: Calibri;
     font-size: 16px;
+}
+a:hover {
+    color:#ffffff;
+    opacity: 70%;
+}
+a:active {
+    color:#ffffff;
+    opacity: 50%;
+}
+
+img[src="images/BK Icon.png"]:hover {
+    color: #ffffff;
+    opacity: 70%;
 }
 
 /* FOOTER */
