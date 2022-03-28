@@ -53,39 +53,34 @@ img {
     display: flex;
     flex-direction: row;
     gap: 25px; /* horizontal only */
-    border: 1px solid #ff0000;
     padding-top: 1.5%;
     padding-bottom: 6%;
 }
 .columnbig {
     width: 80%;
-    border: 1px solid #0099ff;
     display: flex;
     flex-direction: column;
     gap: 25px;
 }
 .columnsmall {
     width: 20%;
-    border: 1px solid #0099ff;
     display: flex;
     flex-direction: column;
     gap: 25px;
 }
 .leftcontent {
-    border: 1px solid #a200ff;
     background-color: rgb(233, 233, 233);
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     width: 100%;
     border-radius: 5px;
-    padding: 8px 25px;
+    padding: 12px 35px;
 }
 .rightcontent {
-    border: 1px solid #a200ff;
     background-color: rgb(233, 233, 233);
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     width: 100%;
     border-radius: 5px;
-    padding: 8px 25px;
+    padding: 12px 35px;
 }
 h1 {
     text-align: left;
