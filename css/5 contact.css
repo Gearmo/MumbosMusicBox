@@ -97,34 +97,41 @@ input:focus::placeholder {
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
+    padding-top: 2%;
 }
-.bottomleft {
-    height: 4vh;
-    box-shadow: 0 2px 5px rgb(0 0 0 / 0.2);
-    border: 2px solid #5e5e5e;
-    border-radius: 6px;
-    background-color: #ffffff;
-    padding: 0px 10px;
+.left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+
 }
 .bottomright {
-    height: 4vh;
+    height: 3.8vh;
     box-shadow: 0 2px 5px rgb(0 0 0 / 0.2);
     border: 2px solid #5e5e5e;
-    border-radius: 6px;
+    border-radius: 3px;
     background-color: #ffffff;
-    padding: 0px 13px;
+    padding: 0px 20px;
 }
-.bottomleft:hover {
+.myleft:hover {
     background-color: #cccccc;
 }
-.bottomleft:active  {
+.myleft:active  {
     background-color: #888888;
 }
 .bottomright:hover {
-    background-color: #c7c975;
+    background-color: #e1e2b6;
 }
 .bottomright:active {
-    background-color: #9d9e46;
+    background-color: #c7c96e;
 }
 h1 {
     font-size: 24px;

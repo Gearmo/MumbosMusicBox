@@ -38,12 +38,12 @@ img {
 }
 
 /* MAIN BODY */
-.mainbody {
+.mainbody { /* ADD THIS BELOW FOR EVERY DEVICE WIDTH */
     object-fit:fill;
     position: absolute;
     flex-direction: column;
     text-align: center;
-    height: 185vh; /* Will increase as database grows */
+    height: 202vh; /* Will increase as database grows */
     width: 100%;
 }
 .pageid {
@@ -109,34 +109,45 @@ th {
     background-color: #303030;
 }
 .series {
-    width: 14%; /* 14% */
+    width: 10%; /* 10% */
     font-weight: normal;
     border-right: 1px solid #8a8a8a;
 }
 .game {
-    width: 14%; /* 28% */
+    width: 14%; /* 24% */
     font-weight: normal;
     border-right: 1px solid #8a8a8a;
 }
 .title {
-    width: 24%; /* 52% */
+    width: 18%; /* 42% */
     font-weight: normal;
     border-right: 1px solid #8a8a8a;
 }
 .artist {
-    width: 12%; /* 64% */
+    width: 10%; /* 52% */
     font-weight: normal;
     border-right: 1px solid #8a8a8a;
 }
 .type {
-    width: 12%; /* 76% */
+    width: 12%; /* 64% */
     font-weight: normal;
     border-right: 1px solid #8a8a8a;
 }
-.length {
-    width: 7%; /* 83% */
+.preview {
+    width: 22%; /* 86% */
     font-weight: normal;
     border-right: 1px solid #8a8a8a;
+    margin: 0% 1%; /* 88% */
+}
+.filebox { 
+    border: 1px solid #ff0000;
+    width: 10%; /* 98% */
+    min-height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0% 1%; /* 100% */
+    gap: 8%;
 }
 #nosorting {
     color:#f1f1f1;
@@ -151,21 +162,18 @@ th {
 #sorting:active {
     color: #818181
 }
-.filebox { 
-    width: 15%; /* 98% */
-    min-height: 48px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0% 2%; /* 100 */
-}
 .fileicon {
+    border: 1px solid #0044ff;
     width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 2% 3%;
+    padding: 5% 0%;
+}
+.fileicon:hover {
+    opacity: 50%;
+    color: #000;
 }
 #iconfit {
     width: 68%;

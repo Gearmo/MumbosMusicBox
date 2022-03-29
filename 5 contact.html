@@ -69,8 +69,15 @@
                                 onblur="this.placeholder = 'Comment'"
                                 ></textarea></div>
                             <div class="bottomfields">
-                                <div><input class="bottomleft" type="button" value="Add Files"></div>
-                                <div><input class="bottomright" type="submit" value="Submit"></div>
+
+                                <div class="left">
+                                    <label for="myfile">Add Files:</label>
+                                    <div><input type="file" id="myfile" name="myfile"></div>
+                            `   </div>
+
+                                <div class="right">
+                                    <input class="bottomright" type="submit" value="Submit"></div>
+                                </div>
                             </div>
                         </form>
                     </div>
