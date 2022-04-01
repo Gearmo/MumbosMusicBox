@@ -43,7 +43,7 @@ img {
     position: absolute;
     flex-direction: column;
     text-align: center;
-    height: 202vh; /* Will increase as database grows */
+    height: 155vh; /* Will increase as database grows */
     width: 100%;
 }
 .pageid {
