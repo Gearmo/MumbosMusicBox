@@ -111,7 +111,7 @@ input:focus::placeholder {
     height: 100%;
     display: flex;
     justify-content: right;
-
+    padding-top: 6%;
 }
 .bottomright {
     height: 3.8vh;

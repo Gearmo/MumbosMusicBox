@@ -59,7 +59,7 @@ img {
     align-items: center;
 }
 .table-sortable {
-    background-color: #f1f1f1;
+    background: rgba(241, 241, 241, 0.95);
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     width: 112%;
 }
@@ -139,13 +139,16 @@ th {
     border-right: 1px solid #8a8a8a;
     margin: 0% 1%; /* 88% */
 }
-.filebox { 
-    border: 1px solid #ff0000;
+audio::-webkit-media-controls-play-button, audio::-webkit-media-controls-panel {
+    background-color: rgba(238, 238, 234, 0.95);
+}
+.filebox { /* "Downloads" */
     width: 10%; /* 98% */
     min-height: 48px;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     margin: 0% 1%; /* 100% */
     gap: 8%;
 }
@@ -163,13 +166,11 @@ th {
     color: #818181
 }
 .fileicon {
-    border: 1px solid #0044ff;
     width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 5% 0%;
 }
 .fileicon:hover {
     opacity: 50%;
