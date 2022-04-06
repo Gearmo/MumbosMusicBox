@@ -36,7 +36,6 @@ Welcome to Mumbo's Musicbox! This is a music database website that holds music f
 * These are score files that are supported by MuseScore, a free open-source scorewriting software that is supported by most operating systems. This makes it easy for musicians to score out and make edits quickly. It also makes it easy to export to other file types, such as .xml, .midi, .mp3, .pdf, and so on. These files can easy be imported to other notation software like Sibelius or Finale.
 
 ## Categories
-The website is split up into the following categories:
 > SERIES
 * Where series does this song originate from? This helps narrow titles down to specific series, such as Mario, Zelda, Pokemon, etc.
 
