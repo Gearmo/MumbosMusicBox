@@ -43,7 +43,7 @@ img {
     position: absolute;
     flex-direction: column;
     text-align: center;
-    height: 155vh; /* Will increase as database grows */
+    height: 210vh; /* Will increase as database grows */
     width: 100%;
 }
 .pageid {
@@ -183,7 +183,20 @@ audio::-webkit-media-controls-play-button, audio::-webkit-media-controls-panel {
 #hidden {
     opacity: 0;
 }
-
+.unavailable {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 10%;
+    position:relative; /* making the .tooltip span a container for the tooltip text */
+    border-bottom:1px dashed #000; /* little indicater to indicate it's hoverable */
+}
+.unavailable:hover {
+    pointer-events: none;
+    opacity: 10%;
+}
 /* FOOTER */
 .footer {
     color: azure;

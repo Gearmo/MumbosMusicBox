@@ -1,0 +1,23 @@
+- Chris P Bacon (4) {not looping correctly}
+- Fun N Games (5) {not looping correctly}
+//- Mr Patch (0)
+ 
+//- Twinleaf (0)
+- Lake (2) {not looping correctly}
+//- Sandgem (0)
+//- Jubilife (0)
+//- Oreburgh City (0)
+//- Oreburgh Mine (0)
+//- Mt Coronet (2)
+- 201 (3) {not looping correctly}
+//- 203 (0)
+//- 205 (0)
+- 209 (2) {not looping correctly}
+- Elite 4 Unova (13) {not looping correctly}
+
+- Slider (3) {not looping correctly}
+
+CUT:
+Eterna
+Cynthia
+Route 210
