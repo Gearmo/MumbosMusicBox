@@ -46,10 +46,10 @@ The website is split up into the following categories:
 > TITLE
 * This will be the name of the song as shown in its game's OST.
 
-> Artist
+> ARTIST
 * This is the person that put these files together for public use. Be sure to thank them!
 
-> Type
+> TYPE
 * Some songs may come with variants, such as overworld, underworld, underwater, minigame, or boss. These comes in handy when trying to add music for particular parts of a ROM hack, like a cave or a dark passage.
 
 > PREVIEW
@@ -57,3 +57,6 @@ The website is split up into the following categories:
 
 > DOWNLOADS
 * This is where the magic is! You may download song files as MP3, MIDI, or MSCZ format. You now have full access to this song, including leisurely playback, ROM integration, and full-on editing. 
+
+> LOOP POINT
+* This is the musical bar where the song loops. You will prompted with this number in Banjo's Backpack.
