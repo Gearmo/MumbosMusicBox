@@ -59,7 +59,7 @@ img {
     align-items: center;
 }
 .table-sortable {
-    background: rgba(241, 241, 241, 0.95);
+    background: #f1f1f1;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     width: 112%;
 }
@@ -70,25 +70,25 @@ td {
 }
 .table-sortable th {
     cursor: pointer;
-  }
+}
   
   .table-sortable .th-sort-asc::after {
     content: "\25b4";
-  }
+}
   
   .table-sortable .th-sort-desc::after {
     content: "\25be";
-  }
+}
   
   .table-sortable .th-sort-asc::after,
   .table-sortable .th-sort-desc::after {
     margin-left: 5px;
-  }
+}
   
   .table-sortable .th-sort-asc,
   .table-sortable .th-sort-desc {
     background: rgba(0, 0, 0, 0.1);
-  }
+}
   
 th {
     display: flex;
@@ -140,7 +140,7 @@ th {
     margin: 0% 1%; /* 88% */
 }
 audio::-webkit-media-controls-play-button, audio::-webkit-media-controls-panel {
-    background-color: rgba(238, 238, 234, 0.95);
+    background-color: #f1f1f1;
 }
 .filebox { /* "Downloads" */
     width: 10%; /* 98% */
@@ -190,8 +190,7 @@ audio::-webkit-media-controls-play-button, audio::-webkit-media-controls-panel {
     align-items: center;
     justify-content: center;
     opacity: 10%;
-    position:relative; /* making the .tooltip span a container for the tooltip text */
-    border-bottom:1px dashed #000; /* little indicater to indicate it's hoverable */
+    position: relative;
 }
 .unavailable:hover {
     pointer-events: none;
