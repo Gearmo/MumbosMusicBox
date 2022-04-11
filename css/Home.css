@@ -500,7 +500,6 @@ img[src="images/Arrow.png"] {
     }
     .container {
         min-width: 100%;
-        margin-left: 8px;
     }
     .columnbig {
         width: 80%;
@@ -541,15 +540,116 @@ img[src="images/Arrow.png"] {
 /* -----------------------------------------------------------------------*/
 /* LAPTOP 1440px */
 @media screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
+    .navbar-inverse {
+        height: 6%;
+        font-size: 14px;
+        padding: 0px 0px;
+    }
     .mainbody {
-        height: 220vh;
+        height: 214vh;
+    }
+    .pageid {
+        font-size: 30px;
+        padding: 5px 0px;
+    }
+    h1 {
+        font-size: 18px;
+    }
+    .container {
+        min-width: 100%;
+        margin-left: 8px;
+    }
+    .columnbig {
+        width: 80%;
+    }
+    .columnsmall {
+        width: 20%;
+    }
+    .rightcontent {
+        display:inline;
+    }
+    p, .entry, .goto {
+        font-size: 14px;
+    }
+    .entry {
+        padding: 15px 10px;
+    }
+    .entry:nth-of-type(1) {
+        width: 24%;
+    }
+    .entry:nth-of-type(2) {
+        width: 52%;
+    }
+    .entry:nth-of-type(3) {
+        width: 20%;
+    }
+    .entry:nth-of-type(4) {
+        width: 6%;
+    }
+    .footer {
+        height: 6%;
+        font-size: 12px;
+    }
+    #scroll, #scroll:hover{
+        opacity: 1;
     }
 }
 
 /* -----------------------------------------------------------------------*/
 /* TV 2560px */
 @media screen and (min-device-width: 1441px) and (max-device-width: 2560px) {
+    .navbar-inverse {
+        height: 6%;
+        font-size: 13px;
+        padding: 0px 0px;
+    }
     .mainbody {
         height: 100vh;
+        padding-left: 48px;
+    }
+    .pageid {
+        font-size: 30px;
+        padding: 5px 0px;
+    }
+    h1 {
+        font-size: 18px;
+    }
+    .container {
+        min-width: 96%;
+    }
+    .columnbig {
+        width: 80%;
+    }
+    .columnsmall {
+        width: 20%;
+    }
+    .rightcontent {
+        display:inline;
+    }
+    p, .entry, .goto {
+        font-size: 14px;
+    }
+    .entry {
+        padding: 15px 10px;
+    }
+    .entry:nth-of-type(1) {
+        width: 24%;
+    }
+    .entry:nth-of-type(2) {
+        width: 52%;
+    }
+    .entry:nth-of-type(3) {
+        width: 20%;
+    }
+    .entry:nth-of-type(4) {
+        width: 6%;
+    }
+    .footer {
+        height: 6%;
+        font-size: 12px;
+    }
+    #scroll {
+        opacity: 1;
+        bottom: 65px;
     }
 }
