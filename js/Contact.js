@@ -55,3 +55,17 @@ $(textarea).focusout(function(){
     }
 });
 */
+
+const form = document.getElementsByClassName("formbase");
+
+form.addEventListener('submit', function handleSubmit(event) {
+  event.preventDefault();
+
+  // 👇️ Send data to server here
+  jQuery.ajax({
+    url: "contactform.php",
+  })
+  
+  // 👇️ Reset form here
+  form.reset();
+});

@@ -28,7 +28,7 @@
         <nav class="navbar-inverse">        
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav list-group-horizontal">
-                    <li><a href="Home.html">Home</a></li>
+                    <li><a href=".html">Home</a></li>
                     <li><a href="Database.html">Find Music</a></li>
                     <li><a href="Composition.html">Composition</a></li>
                     <li><a href="About.html">About</a></li>
@@ -56,8 +56,14 @@
             
                 <div class="container">
 
+                    <!-- ADD IN FORM WHEN READY:
+
+                    action="contactform.php"
+
+                    -->
+
                     <div class="content"><h1>Submission Form</h1>
-                        <form class="formbase" method="post" action="contactform.php"><p style="text-align: center">Ask us anything! This is the place to submit your files, ask questions, or raise any concerns you may have. Your information will be kept confidential. <br><br>Please be sure to include the four-digit number after your Discord name. (Example: <i>Mumbo#1234</i>)</p>
+                        <form id="form" class="formbase" method="post"><p style="text-align: center">Ask us anything! This is the place to submit your files, ask questions, or raise any concerns you may have. Your information will be kept confidential. <br><br>Please be sure to include the four-digit number after your Discord name. (Example: <i>Mumbo#1234</i>)</p>
                             <div><input type="text" class="smallfield" placeholder="Name"></div>
                             <div><input type="text" class="smallfield" placeholder="Discord"></div>
                             <div><textarea 
@@ -76,12 +82,12 @@
                                 </div>
 
                                 <div class="right">
-                                    <input class="bottomright" type="submit" value="Submit"></div>
+                                    <input class="bottomright" type="submit" value="Submit" onClick="submitForm()"></div>
                                 </div>
                             </div>
                         </form>
+                        <div id="ty">Thanks for your submission!</div>
                     </div>
-                      
                 </div>
             </div>    
         </div>

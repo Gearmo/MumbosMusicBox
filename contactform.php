@@ -19,5 +19,5 @@ $headers .= "Reply-To: $visitor_email \r\n";
 
 mail($to, $email_subject, $email_body, $headers);
 
-header ("Location: 5 contact.html");
+header ("Location: Contact.html");
 ?>
