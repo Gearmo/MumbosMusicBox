@@ -110,34 +110,27 @@ th {
 }
 .series {
     width: 10%; /* 10% */
-    font-weight: normal;
     border-right: 1px solid #8a8a8a;
 }
 .game {
     width: 14%; /* 24% */
-    font-weight: normal;
     border-right: 1px solid #8a8a8a;
 }
 .title {
-    width: 18%; /* 42% */
-    font-weight: normal;
+    width: 20%; /* 44% */
     border-right: 1px solid #8a8a8a;
 }
 .artist {
-    width: 10%; /* 52% */
-    font-weight: normal;
+    width: 10%; /* 54% */
     border-right: 1px solid #8a8a8a;
 }
 .type {
-    width: 12%; /* 64% */
-    font-weight: normal;
+    width: 12%; /* 66% */
     border-right: 1px solid #8a8a8a;
 }
 .preview {
-    width: 22%; /* 86% */
-    font-weight: normal;
+    width: 20%; /* 88% */
     border-right: 1px solid #8a8a8a;
-    margin: 0% 1%; /* 88% */
 }
 audio::-webkit-media-controls-play-button, audio::-webkit-media-controls-panel {
     background-color: #f1f1f1;
@@ -148,9 +141,13 @@ audio::-webkit-media-controls-play-button, audio::-webkit-media-controls-panel {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    margin: 0% 1%; /* 100% */
+    margin: 0% 1%;
+    padding: 0% 0.5%; /* 97% */
     gap: 8%;
+    border-right: 1px solid #8a8a8a;
+}
+.looppoint {
+    width: 1.8%; /* 100% */
 }
 #nosorting {
     color:#f1f1f1;
@@ -186,11 +183,7 @@ audio::-webkit-media-controls-play-button, audio::-webkit-media-controls-panel {
 .unavailable {
     width: 100%;
     height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     opacity: 10%;
-    position: relative;
 }
 .unavailable:hover {
     pointer-events: none;
